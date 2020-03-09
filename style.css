@@ -1,0 +1,27 @@
+.text-1 {
+  font-family: "Patrick Hand", cursive;
+  margin: auto;
+  font-size: large;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header-1 {
+  display: 100%;
+  background-color: rgb(80, 80, 80);
+  color: aliceblue;
+  font-size: xx-large;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-1 {
+  font-size: x-large;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.section-border {
+  background-color: rgb(101, 211, 255);
+  border-color: black;
+}
