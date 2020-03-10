@@ -1,27 +1,36 @@
-.text-1 {
-  font-family: "Patrick Hand", cursive;
-  margin: auto;
-  font-size: large;
-  padding-left: 10px;
-  padding-right: 10px;
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: #1e1e1e;
+  display: block;
+  margin: 0 auto;
+  color: #ecf6ff;
 }
-
-.header-1 {
-  display: 100%;
-  background-color: rgb(80, 80, 80);
-  color: aliceblue;
-  font-size: xx-large;
-  text-align: center;
+.header-txt {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  padding-left: 20px;
+}
+.header-txt2 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 50px;
+  font-weight: 900;
   text-transform: uppercase;
+  text-shadow: 1.5px 1.5px #ffffff;
 }
 
-.section-1 {
-  font-size: x-large;
+.nav {
+}
+
+.nav-btns {
+  background-color: #1e1e1e;
+  color: #ecf6ff;
+  border-color: #000099;
+  border-top: 0;
+  font-size: medium;
   text-align: center;
-  padding-top: 30px;
 }
-
-.section-border {
-  background-color: rgb(101, 211, 255);
-  border-color: black;
+button:hover {
+  box-shadow: 2px 0px 10px #000099;
 }
